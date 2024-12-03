@@ -1,0 +1,7 @@
+In a shell script, signals like Ctrl+C (which sends the SIGINT signal)
+can be handled using the trap command. By using trap,
+you can specify a custom action when a signal is received, such as 
+displaying a message or cleaning up resources before exiting the script.
+For example, you can trap Ctrl+C to print a message and terminate the
+script gracefully instead of abruptly. This allows for better control over
+how the script responds to interruptions, ensuring a more predictable behavior.

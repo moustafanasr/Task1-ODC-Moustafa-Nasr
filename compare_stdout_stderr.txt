@@ -1,0 +1,9 @@
+Standard Output (stdout) and Standard Error (stderr) are two separate output
+streams in a program. stdout is used for regular,expected output, such as
+results or data, and it has a file descriptor of 1.
+On the other hand, stderr is used to report errors or warnings, 
+with a file descriptor of 2.
+The key difference between them is that stdout handles normal program output,
+while stderr handles error messages, allowing them to be managed separately. 
+This distinction helps in debugging and logging, as errors can be 
+redirected without affecting normal output.
